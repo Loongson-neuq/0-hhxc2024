@@ -1,0 +1,14 @@
+main.cpp: In function ‘void CompareThreeNumbers(int, int, int, Result&)’:
+main.cpp:16:18: error: expected ‘;’ before ‘if’
+   16 |         swap(a,b)
+      |                  ^
+      |                  ;
+   17 | 
+   18 |         if(b>c)
+      |         ~~        
+main.cpp:25:22: error: expected ‘;’ before ‘}’ token
+   25 |             swap(a,b)
+      |                      ^
+      |                      ;
+   26 |         }
+      |         ~             
